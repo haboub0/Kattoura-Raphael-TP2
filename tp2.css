@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+@import url('https://fonts.googleapis.com/css?family=Castoro');
+
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 90px auto;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+
+.headerLayout img {
+    width: 75px;
+    margin-left: 20px;
+}
+
+.menuLayout {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.menuLayout a {
+    min-width: 100px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    padding: 6px 24px 6px 24px;
+}
+
+.menuLayout a:hover {
+    color: white;
+    background-color: black;
+}
+
+.menuLayout a:active {
+    background-color: gray;
+}
+
+.menuLayout .selected {
+    background-color: lightgray;
+}
+
+.content {
+    padding: 20px;
+    font-family: "Mochiy Pop One";
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "Castoro";
+}
